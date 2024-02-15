@@ -1,0 +1,26 @@
+.LoginModal-overlay-container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.LoginModal-container {
+  width: 300px;
+  height: 200px;
+  padding: 40px;
+  background-color: white;
+  position: relative;
+}
+.LoginModal-label {
+  display: inline-block;
+  width: 90px;
+}
+.LoginModal-closeButton {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
